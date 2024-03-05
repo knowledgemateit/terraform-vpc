@@ -1,5 +1,5 @@
 variable "project" {
-  default = "test"
+  default = "hsbc"
 }
 
 variable "vpc_cidr" {
