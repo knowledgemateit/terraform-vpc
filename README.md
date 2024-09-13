@@ -1,6 +1,8 @@
 Terraform installation: 
 
-ssh-keygen
+ssh-keygen  
+
+ssh-keygen -t rsa
 
 apt update
 
