@@ -1,11 +1,5 @@
 Terraform installation: 
 
-ssh-keygen  
-
-ssh-keygen -t rsa
-
-apt update
-
 wget https://releases.hashicorp.com/terraform/0.14.7/terraform_0.14.7_linux_amd64.zip
 
 apt install unzip
@@ -17,6 +11,7 @@ mv terraform /usr/local/bin/
 terraform -v
 
 
+------------------------------------------------------------
 
 
 ubuntu Jenkins installation
@@ -42,6 +37,7 @@ systemctl start jenkins
 cat /var/lib/jenkins/secrets/initialAdminPassword
 
 -----------------------------------
+
 amazon linux jenkins installation:
 
 sudo amazon-linux-extras install java-openjdk11 -y
