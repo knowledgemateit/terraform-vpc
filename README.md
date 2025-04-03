@@ -1,4 +1,12 @@
+Project Diagram:
+![image](https://github.com/user-attachments/assets/52384194-1fd2-47f3-b28a-257e5d229736)
+
+
 Terraform installation: 
+
+ssh-keygen
+
+apt update
 
 wget https://releases.hashicorp.com/terraform/0.14.7/terraform_0.14.7_linux_amd64.zip
 
@@ -9,6 +17,8 @@ unzip terraform_0.14.7_linux_amd64.zip
 mv terraform /usr/local/bin/
 
 terraform -v
+
+
 
 
 ------------------------------------------------------------
